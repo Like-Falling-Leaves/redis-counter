@@ -1,6 +1,6 @@
 before_script:
   - sleep 15
-services: mongodb
+services: redis
 language: node_js
 
 node_js:
