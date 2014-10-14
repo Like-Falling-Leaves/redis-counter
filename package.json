@@ -1,0 +1,17 @@
+{
+  "name": "redis-counter",
+  "description": "Auto-increment counters for REDIS",
+  "keywords": ["auto-increment", "counters", "counter", "redis"],
+  "homepage": "https://github.com/like-falling-leaves/redis-counter",
+  "bugs": { "url": "https://github.com/like-falling-leaves/redis-counter/issues" },
+  "license": "MIT",
+  "author": {"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"},
+  "main": "./counter.js",
+  "maintainers": [{"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"}],
+  "version": "0.0.1",
+  "repository": { "type": "git", "url": "git://github.com/like-falling-leaves/redis-counter.git" },
+  "readmeFilename": "README.md",
+  "dependencies": { "mongodb" : "~0.12.1" },
+  "devDependencies": { "mocha": "1.*" },
+  "scripts": { "test": "mocha test/" }
+}
