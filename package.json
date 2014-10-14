@@ -8,10 +8,10 @@
   "author": {"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"},
   "main": "./counter.js",
   "maintainers": [{"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"}],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": { "type": "git", "url": "git://github.com/like-falling-leaves/redis-counter.git" },
   "readmeFilename": "README.md",
-  "dependencies": { "mongodb" : "~0.12.1" },
+  "dependencies": { "redis" : ">=0.12.1" },
   "devDependencies": { "mocha": "1.*" },
   "scripts": { "test": "mocha test/" }
 }
